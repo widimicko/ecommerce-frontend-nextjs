@@ -1,4 +1,4 @@
-import productsJSON from "../../../modules/server/data/products.json";
+import productsJSON from "@server/data/products.json";
 
 export default function handler(req, res) {
   const productID = Number(req.query.id);
