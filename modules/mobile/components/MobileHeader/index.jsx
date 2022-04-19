@@ -9,7 +9,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 
 const MobileHeader = () => {
   return (
-    <div>
+    <div style={{ marginBottom: "50px" }}>
       <Box sx={{ flexGrow: 1 }}>
         <AppBar position="static">
           <Toolbar>
