@@ -1,9 +1,10 @@
-import * as React from "react";
 import PropTypes from "prop-types";
+
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
-import Star from "@mui/icons-material/Star";
-import StarHalf from "@mui/icons-material/StarHalf";
+
+import { Star, StarHalf } from "@mui/icons-material";
+
 import { yellow } from "@mui/material/colors";
 
 const ProductRating = ({ rating, sold }) => {

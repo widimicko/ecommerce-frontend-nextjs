@@ -1,5 +1,5 @@
-import React from "react";
 import PropTypes from "prop-types";
+
 import MobileHeader from "@mobile/components/MobileHeader";
 
 const Layout = ({ children }) => {

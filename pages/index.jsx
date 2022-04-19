@@ -1,7 +1,8 @@
-import Layout from "@common/components/Layout";
-import ProductCard from "@common/components/ProductCard";
 import Grid from "@mui/material/Grid";
 import Container from "@mui/material/Container";
+
+import Layout from "@common/components/Layout";
+import ProductCard from "@common/components/ProductCard";
 
 const Home = ({ products }) => {
   return (
